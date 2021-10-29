@@ -2,6 +2,7 @@ services:
   - type: web
     name: render-http-header-test
     env: static
+    staticPublishPath: ./
     headers:
       - path: /*
         name: x-render-test-1
