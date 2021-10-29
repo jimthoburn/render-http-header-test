@@ -1,23 +1,101 @@
 <!doctype html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8" />
   <title>HTTP Header test for static sites on Render</title>
 </head>
-<body>
-<h1>HTTP Header test</h1>
-<p>for static sites on Render</p>
 
-<ul>
-  <li><a href="/">/</a></li>
-  <li><a href="/blog/">/blog/</a></li>
-  <li><a href="/blog/latest-post/">/blog/latest-post/</a></li>
-  <li><a href="/blog/latest-post/part-2/">/blog/latest-post/part-2/</a></li>
-  <li><a href="/tokens.css">/tokens.css</a></li>
-  <li><a href="/mode.css">/mode.css</a></li>
-  <li><a href="/assets/theme.css">/assets/theme.css</a></li>
-  <li><a href="/assets/color/night.css">/assets/color/night.css</a></li>
-</ul>
+<body>
+  <h1>HTTP Header test</h1>
+  <p>for static sites on Render</p>
+
+  <table>
+    <thead>
+      <th>Page</th>
+      <th>x-render-test-1</th>
+      <th>x-render-test-2</th>
+      <th>x-render-test-3</th>
+      <th>x-render-test-4</th>
+      <th>x-render-test-5</th>
+      <th>x-render-test-6</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="/">/</a></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr>
+        <td><a href="/blog/">/blog/</a></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr>
+        <td><a href="/blog/latest-post/">/blog/latest-post/</a></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr>
+        <td><a href="/blog/latest-post/part-2/">/blog/latest-post/part-2/</a></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr>
+        <td><a href="/tokens.css">/tokens.css</a></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr>
+        <td><a href="/mode.css">/mode.css</a></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+      </tr>
+      <tr>
+        <td><a href="/assets/theme.css">/assets/theme.css</a></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" checked /></td>
+      </tr>
+      <tr>
+        <td><a href="/assets/color/night.css">/assets/color/night.css</a></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" checked /></td>
+        <td><input type="checkbox" /></td>
+        <td><input type="checkbox" checked /></td>
+      </tr>
+    </tbody>
+  </table>
 
 </body>
+
 </html>
