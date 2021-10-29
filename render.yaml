@@ -1,6 +1,7 @@
 services:
-  - type: static
+  - type: web
     name: render-http-header-test
+    env: static
     headers:
       - path: /*
         name: x-render-test-1
