@@ -7,16 +7,16 @@ services:
       - path: /*
         name: x-render-test-1
         value: 1
-      - path: /*.css
+      - path: /assets/theme.css
         name: x-render-test-2
         value: 2
       - path: /blog/*
         name: x-render-test-3
         value: 3
-      - path: /assets/*.css
+      - path: /**/*
         name: x-render-test-4
         value: 4
-      - path: /**/*
+      - path: /*.css
         name: x-render-test-5
         value: 5
       - path: /**/*.css
