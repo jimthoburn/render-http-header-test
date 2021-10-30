@@ -22,3 +22,12 @@ services:
       - path: /**/*.css
         name: x-render-test-6
         value: 6
+      - path: /*
+        name: Cache-Control
+        value: no-cache
+      - path: /*.css
+        name: Cache-Control
+        value: public, max-age=7200
+      - path: /**/*.css
+        name: Cache-Control
+        value: public, max-age=7200
